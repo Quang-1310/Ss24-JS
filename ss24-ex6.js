@@ -58,19 +58,18 @@ do{
             break;
 
         case 6:
-            case 6:
-                let originalString = stringArr.trim(); 
-                let result = "";
-                for(let i = 0; i < originalString.length; i++){
-                    if(i === 0 || originalString[i - 1] === " "){
-                        result += originalString[i].toUpperCase();  
-                    } 
-                    else{
-                        result += originalString[i].toLocaleLowerCase(); 
-                    }
+            let originalString = stringArr.trim(); 
+            let result = "";
+            for(let i = 0; i < originalString.length; i++){
+                if(i === 0 || originalString[i - 1] === " "){
+                    result += originalString[i].toUpperCase();  
+                } 
+                else{
+                    result += originalString[i].toLocaleLowerCase(); 
                 }
-                console.log(result);
-                break;
+            }
+            console.log(result);
+            break;
 
             case 7:
                 break;

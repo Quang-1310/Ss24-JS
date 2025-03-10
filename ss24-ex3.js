@@ -47,6 +47,7 @@ do{
                 arrReverse.push(arr[i]);
             }
             console.log(`Mảng đảo ngược là: ${arrReverse}`);
+            break;
 
         case 6:
             let arrSymmetry = [];
@@ -64,6 +65,7 @@ do{
             if(flag === -1){
                 console.log("Mảng đối xứng");
             }
+            break;
 
             case 7:
                 break;
